@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;300;400;500;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+:root {
+    --backgroundOne: rgb(56, 2, 56);
+    --light_purple: rgb(227, 177, 227, .5);
+    --pink: rgb(240, 87, 219);
+    --white_background: white;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--backgroundOne);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conatiner {
+    background-color: var(--white_background);
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+/* left component styles */
+
+
+.left_compartment p {
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 3rem;
+    line-height: 1.1em;
+
+}
+
+
+.right_compartment {
+    margin-top: 4em;
+
+
+}
+
+.single_compartment {
+    border: solid 1px #e7ebf0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(116, 113, 116, 0.5);
+    margin-bottom: 3rem;
+}
+
+.top_question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.top_question h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.btn_container {
+    height: 30px;
+    width: 30px;
+    background-color: var(--light_purple);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.btn_container svg {
+    color: var(--pink);
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+
+.answers_compartment {
+    border-top: solid 1.5px rgb(193, 191, 191);
+    padding: 15px 3px 0 3px;
+
+}
+
+.answers_compartment p {
+    font-size: 1.5rem;
+    color: rgb(95, 94, 92);
+    letter-spacing: 1px;
+
+}
+
+
+@media (min-width:920px) {
+    .conatiner {
+        display: flex;
+        max-width: 980px;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
+    .right_compartment {
+        margin-top: 0;
+        flex: 4;
+
+    }
+
+    .left_compartment {
+        margin: 0;
+        align-self: flex-start;
+        flex: 2;
+    }
+
+}
