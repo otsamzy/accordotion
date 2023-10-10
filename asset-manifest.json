@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/accordotion/static/css/main.8a06ba6f.css",
+    "main.js": "/github.io/accordotion/static/js/main.3f24399e.js",
+    "index.html": "/github.io/accordotion/index.html",
+    "main.8a06ba6f.css.map": "/github.io/accordotion/static/css/main.8a06ba6f.css.map",
+    "main.3f24399e.js.map": "/github.io/accordotion/static/js/main.3f24399e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a06ba6f.css",
+    "static/js/main.3f24399e.js"
+  ]
+}
